@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+
+  s3:
+    image: minio/minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - bucket:/data
+    command: server --address "0.0.0.0:9000" --console-address "0.0.0.0:9001" /data
+
+volumes:
+  bucket:
