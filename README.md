@@ -1,6 +1,7 @@
 # MinIO Docker Configuration
 
 > MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads. [MinIO](https://min.io/)
+
 This repository contains the configuration files for running minIO in Docker containers. It is based on the [minIO](https://min.io/docs/minio/container/index.html) repository.
 
 ## Configuration
